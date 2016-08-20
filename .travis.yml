@@ -1,0 +1,23 @@
+language: php
+php:
+  - '5.3'
+  - '5.4'
+  - '5.5'
+  - '5.6'
+  - '7.0'
+  - 'hhvm'
+
+addons:
+  code_climate:
+    repo_token: 14551fb1e515373d6832bc36e4756dd6e9c519cfa1ded0fa761995ff297d6c6c
+
+before_script:
+  - composer self-update
+  - composer install --prefer-source --dev
+
+script:
+  - ./vendor/bin/phpunit -v -c phpunit.xml
+
+after_script:
+  - ./vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+  - CODECLIMATE_REPO_TOKEN=14551fb1e515373d6832bc36e4756dd6e9c519cfa1ded0fa761995ff297d6c6c ./vendor/bin/test-reporter
