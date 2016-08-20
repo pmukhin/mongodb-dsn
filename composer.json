@@ -1,0 +1,14 @@
+{
+  "name": "redneck1/mongodb-dsn",
+  "license": "MIT",
+  "description": "Single class to provide easy to configure dsn strings for MongoDB",
+  "autoload": {
+    "psr-4": {
+      "Redneck1\\MongoDB\\": "src/",
+      "Redneck1\\MongoDB\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4"
+  }
+}
