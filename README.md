@@ -18,4 +18,15 @@ $dsn = new Dsn(
 
 $mongodb = (new Client((string)$dsn))
     ->selectDatabase($config->get('mongodb.database'));
+    
+$dsn = new Dsn(
+    '127.0.0.1',
+    null,
+    null,
+    null,
+    '2456'
+);
+
+// "mongodb://127.0.0.1:2456"
+echo (string)$dsn;
 ```
