@@ -1,14 +1,14 @@
 # mongodb-dsn
 
-[![Build Status](https://travis-ci.org/redneck1/mongodb-dsn.svg?branch=master)](https://travis-ci.org/redneck1/mongodb-dsn)
-[![Code Climate](https://codeclimate.com/github/redneck1/mongodb-dsn/badges/gpa.svg)](https://codeclimate.com/github/redneck1/mongodb-dsn)
-[![Test Coverage](https://codeclimate.com/github/redneck1/mongodb-dsn/badges/coverage.svg)](https://codeclimate.com/github/redneck1/mongodb-dsn/coverage)
+[![Build Status](https://travis-ci.org/pmukhin/mongodb-dsn.svg?branch=master)](https://travis-ci.org/redneck1/mongodb-dsn)
+[![Code Climate](https://codeclimate.com/github/pmukhin/mongodb-dsn/badges/gpa.svg)](https://codeclimate.com/github/pmukhin/mongodb-dsn)
+[![Test Coverage](https://codeclimate.com/github/pmukhin/mongodb-dsn/badges/coverage.svg)](https://codeclimate.com/github/pmukhin/mongodb-dsn/coverage)
 
 ## Approach
 Providing easy to configure dsn strings for MongoDB
 
 ## Usage
-```
+```php
 use Redneck1\MongoDB\Dsn;
 use MongoDB\Client;
 
