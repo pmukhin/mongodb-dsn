@@ -1,8 +1,6 @@
 # mongodb-dsn
 
-[![Build Status](https://travis-ci.org/pmukhin/mongodb-dsn.svg?branch=master)](https://travis-ci.org/redneck1/mongodb-dsn)
-[![Code Climate](https://codeclimate.com/github/pmukhin/mongodb-dsn/badges/gpa.svg)](https://codeclimate.com/github/pmukhin/mongodb-dsn)
-[![Test Coverage](https://codeclimate.com/github/pmukhin/mongodb-dsn/badges/coverage.svg)](https://codeclimate.com/github/pmukhin/mongodb-dsn/coverage)
+[![Build Status](https://travis-ci.org/pmukhin/mongodb-dsn.svg?branch=master)](https://travis-ci.org/pmukhin/mongodb-dsn)
 
 ## Approach
 Providing easy to configure dsn strings for MongoDB
